@@ -1,0 +1,126 @@
+/* Styles for h1 */
+h1 {
+    color: red;
+    font-size: larger;
+  }
+  
+  /* Styles for h2 */
+  h2 {
+    color: rgb(43, 55, 226);
+    font-size: large;
+  }
+  
+  /* Styles for body */
+  body {
+    background-color: rgb(66, 235, 241);
+    display: grid; /* Changed to grid layout */
+    grid-template-columns: repeat(1fr 5fr); /* Example: 2 columns, the first column occupies 1 fraction and the second column occupies 5 fractions */
+    grid-gap: 10px; /* Gap between grid items */
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  /* Styles for img */
+  img {
+    width: 300px;
+    height: 600px;
+  }
+  
+  /* Styles for .myDiv */
+  .myDiv {
+    background-color: lightblue;
+  }
+  
+  /* Styles for span.num */
+  span.num {
+    color: green;
+  }
+  
+  /* Styles for h2 span */
+  h2 span {
+    color: green;
+  }
+  
+  /* Styles for .name */
+  .name {
+    border-bottom: 1px solid black;
+  }
+  
+  /* Styles for nav */
+  nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Styles for nav ul */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for nav li */
+  nav li {
+    float: left;
+  }
+  
+  /* Styles for nav li a */
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Styles for nav li a on hover */
+  nav li a:hover {
+    background-color: #111;
+  }
+  
+  /* Styles for footer */
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+  }
+  
+  /* Styles for p */
+  p {
+    color: blue;
+    font-size: 16px;
+  }
+  
+  /* Styles for #myElement */
+  #myElement {
+    background-color: yellow;
+  }
+  
+  /* Styles for .myClass */
+  .myClass {
+    font-weight: bold;
+  }
+  
+  /* Styles for h3, h4, h5 */
+  h3, h4, h5 {
+    text-decoration: underline;
+  }
+  
+  /* Resetting margin and padding for all elements */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for div p */
+  div p {
+    font-style: italic;
+  }
+  
+  /* Styles for ul > li */
+  ul > li {
+    list-style-type: circle;
+  }
+  
